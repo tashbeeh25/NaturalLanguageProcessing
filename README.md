@@ -1,6 +1,12 @@
 # NaturalLanguageProcessing
 Probabilties, Regular Expressions and Language Models
 
+How to run the files: 
+Step1 - Open CMD and navigate to the folder containing the files (or Shift, right click, open power shell window here)
+step 2 - there are 3 files so to run a desired one type either "python part1.py" or "python part2.py" or "python part3.py" (if does not work, try without "python")
+The program only runs on Python 3.7 and not on Python 2.7
+
+Description:
 Task 1: The program reads the text from the following website "https://www.theguardian.com/music/2018/oct/19/while-my-guitar-gently-weeps-beatles-george-harrison" and identifies all the types and token before and after lowercasing and lemmatising. NLTK functions are used to perform these tasks, from the url reader to the tokenizer and lemmatizer. Part-of-speech tags are assigned to all tokens in the text. 
 The errors detected with POS tagging are as follows: 
 POS tagging is not always assigned to correct tags to words. The reason behind this inaccuracy is ambiguity. POS tagging algorithms use the probability that the word is a tag type but they also use the surrounding sentence context to predict. However, It is not always easy to understand context. So the more words, the more likely it is to be accurate. 
@@ -15,5 +21,3 @@ A regular expression was written to find all telephone numbers in a text. It is 
 Task 3: 
 Using the Toy dataset, a unigram model was computed. Computing the probabilities in a unigram language model without smoothing. Showing work for P(a), P(c), P(UNK). 
 Using the Toy dataset, bigram model was computed. Computed the probabilities in a bigram language model without smoothing. Showing work for P(b|a), P(UNK| <s>), P(UNK|UNK). Smooth the model using Laplace smoothing. Showing work for P(b|a), P(UNK| <s>), P(UNK|UNK).
-
-
